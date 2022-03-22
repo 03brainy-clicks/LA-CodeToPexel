@@ -1,0 +1,157 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --blue: #1890ff;
+  --white: white;
+  --border-black: #d9d9d9;
+  --black: black;
+}
+
+.red {
+  border: red solid 1px;
+}
+
+#navigation .menu ul {
+  list-style: none;
+}
+
+#navigation .menu ul a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+#navigation .menu ul li {
+  font-size: 0.813rem !important;
+}
+
+#navigation .menu ul .log,
+#navigation .menu ul .sign {
+  font-size: 0.813rem !important;
+}
+
+#navigation .menu ul .log {
+  background-color: var(--white);
+  border: 1px solid var(--border-black);
+}
+
+#navigation .menu ul .sign {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+#navigation .menu ul .sign span {
+  color: var(--white);
+}
+
+#navigation .logo {
+  margin: 0px;
+  font-size: 1.125rem;
+}
+
+#hero h2 {
+  line-height: 2.625;
+}
+
+#hero .hero-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+#skill-rect h5 {
+  color: var(--blue);
+}
+
+#skill-rect h5 svg {
+  width: 25px;
+}
+
+#learn .text-head {
+  font-size: 1.875rem;
+}
+
+#learn .frontend {
+  color: var(--white);
+  background: linear-gradient(
+      97.66deg,
+      #2f80ed 0.94%,
+      rgba(123, 174, 244, 0.635417) 73.96%,
+      rgba(150, 191, 246, 0.504346) 83.82%,
+      rgba(255, 255, 255, 0) 121.8%
+    ),
+    #56ccf2;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#learn .frontend h6 {
+  line-height: 1.75;
+}
+
+#learn .frontend p {
+  font-size: 0.875rem;
+}
+
+#learn .backend {
+  color: var(--white);
+  background: linear-gradient(
+      296.48deg,
+      #87e8de -14.41%,
+      rgba(181, 241, 235, 0.613161) 25.24%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #13c2c2;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#learn .backend h6 {
+  line-height: 1.75;
+}
+
+#learn .backend p {
+  font-size: 0.875rem;
+}
+
+#learn-details #card {
+  color: var(--white);
+  background: linear-gradient(
+      97.66deg,
+      #2f80ed 0.94%,
+      rgba(123, 174, 244, 0.635417) 73.96%,
+      rgba(150, 191, 246, 0.504346) 83.82%,
+      rgba(255, 255, 255, 0) 121.8%
+    ),
+    #56ccf2;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#skills-gain h4 {
+  line-height: 2rem;
+}
+
+#skills-gain .dev {
+  width: 50%;
+}
+
+#skills-gain .fitting {
+  width: 80%;
+}
+
+#skills-gain .moon {
+  width: 55%;
+}
+
+#what-we-learn .content {
+  background: rgba(24, 144, 255, 0.13);
+}
+/*# sourceMappingURL=style.css.map */
